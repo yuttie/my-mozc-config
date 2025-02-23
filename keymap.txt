@@ -9,7 +9,10 @@ Conversion	Ctrl a	SegmentFocusFirst
 Composition	Ctrl Backspace	Backspace
 Conversion	Ctrl Backspace	Cancel
 Precomposition	Ctrl Backspace	Undo
+Precomposition	Ctrl c	CancelAndIMEOff
 Composition	Ctrl c	CancelAndIMEOff
+Suggestion	Ctrl c	CancelAndIMEOff
+Prediction	Ctrl c	CancelAndIMEOff
 Conversion	Ctrl c	CancelAndIMEOff
 Composition	Ctrl d	MoveCursorRight
 Conversion	Ctrl d	SegmentFocusRight
@@ -23,6 +26,8 @@ Conversion	Ctrl Enter	Commit
 Composition	Ctrl f	MoveCursorToEnd
 Conversion	Ctrl f	SegmentFocusLast
 Composition	Ctrl g	Cancel
+Suggestion	Ctrl g	Cancel
+Prediction	Ctrl g	Cancel
 Conversion	Ctrl g	Cancel
 Composition	Ctrl h	Backspace
 Conversion	Ctrl h	Cancel
@@ -96,11 +101,10 @@ Conversion	F9	ConvertToFullAlphanumeric
 Composition	Hankaku/Zenkaku	CancelAndIMEOff
 Conversion	Hankaku/Zenkaku	CancelAndIMEOff
 DirectInput	Hankaku/Zenkaku	IMEOn
+Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
+Prediction	Hankaku/Zenkaku	CancelAndIMEOff
 Precomposition	Hankaku/Zenkaku	CancelAndIMEOff
-Composition	Henkan	Convert
-Conversion	Henkan	ConvertNext
-DirectInput	Henkan	Reconvert
-Precomposition	Henkan	Reconvert
+DirectInput	Henkan	IMEOn
 Composition	Hiragana	InputModeHiragana
 Conversion	Hiragana	InputModeHiragana
 DirectInput	Hiragana	IMEOn
