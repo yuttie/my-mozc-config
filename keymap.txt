@@ -52,6 +52,7 @@ Conversion	Shift Space	ConvertPrev
 Conversion	Ctrl n	ConvertNext
 Conversion	Ctrl p	ConvertPrev
 Conversion	Tab	PredictAndConvert
+Conversion	Ctrl i	PredictAndConvert
 Conversion	Enter	Commit
 Conversion	Ctrl m	Commit
 Conversion	Ctrl f	CommitOnlyFirstSegment
