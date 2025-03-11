@@ -38,7 +38,7 @@ Suggestion	Ctrl c	CancelAndIMEOff
 Suggestion	Escape	Cancel
 Suggestion	ESC	Cancel
 Suggestion	Ctrl g	Cancel
-Suggestion	Shift Enter	CommitFirstSuggestion
+Suggestion	Ctrl Enter	CommitFirstSuggestion
 
 Conversion	Hankaku/Zenkaku	CancelAndIMEOff
 Conversion	Ctrl c	CancelAndIMEOff
@@ -69,6 +69,6 @@ Conversion	F10	ConvertToHalfAlphanumeric
 Prediction	Hankaku/Zenkaku	CancelAndIMEOff
 Prediction	Ctrl c	CancelAndIMEOff
 Prediction	Ctrl Delete	DeleteSelectedCandidate
-Prediction	Shift Enter	CommitFirstSuggestion
+Prediction	Ctrl Enter	CommitFirstSuggestion
 Prediction	Ctrl n	ConvertNext
 Prediction	Ctrl p	ConvertPrev
