@@ -33,6 +33,13 @@ Composition	F8	ConvertToHalfWidth
 Composition	F9	ConvertToFullAlphanumeric
 Composition	F10	ConvertToHalfAlphanumeric
 
+Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
+Suggestion	Ctrl c	CancelAndIMEOff
+Suggestion	Escape	Cancel
+Suggestion	ESC	Cancel
+Suggestion	Ctrl g	Cancel
+Suggestion	Shift Enter	CommitFirstSuggestion
+
 Conversion	Hankaku/Zenkaku	CancelAndIMEOff
 Conversion	Ctrl c	CancelAndIMEOff
 Conversion	Escape	Cancel
@@ -64,10 +71,3 @@ Prediction	Ctrl Delete	DeleteSelectedCandidate
 Prediction	Shift Enter	CommitFirstSuggestion
 Prediction	Ctrl n	ConvertNext
 Prediction	Ctrl p	ConvertPrev
-
-Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
-Suggestion	Ctrl c	CancelAndIMEOff
-Suggestion	Escape	Cancel
-Suggestion	ESC	Cancel
-Suggestion	Ctrl g	Cancel
-Suggestion	Shift Enter	CommitFirstSuggestion
