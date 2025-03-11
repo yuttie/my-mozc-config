@@ -62,6 +62,8 @@ Prediction	Hankaku/Zenkaku	CancelAndIMEOff
 Prediction	Ctrl c	CancelAndIMEOff
 Prediction	Ctrl Delete	DeleteSelectedCandidate
 Prediction	Shift Enter	CommitFirstSuggestion
+Prediction	Ctrl n	ConvertNext
+Prediction	Ctrl p	ConvertPrev
 
 Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
 Suggestion	Ctrl c	CancelAndIMEOff
