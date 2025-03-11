@@ -8,7 +8,6 @@ Precomposition	Ctrl c	CancelAndIMEOff
 Precomposition	Shift Henkan	ToggleAlphanumericMode
 Precomposition	Space	InsertSpace
 Precomposition	Shift Space	InsertAlternateSpace
-Precomposition	Ctrl z	Undo
 
 Composition	Hankaku/Zenkaku	CancelAndIMEOff
 Composition	Ctrl c	CancelAndIMEOff
