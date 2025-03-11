@@ -17,6 +17,7 @@ Composition	ESC	Cancel
 Composition	Ctrl g	Cancel
 Composition	Space	Convert
 Composition	Tab	PredictAndConvert
+Composition	Ctrl i	PredictAndConvert
 Composition	Enter	Commit
 Composition	Ctrl m	Commit
 Composition	Ctrl a	MoveCursorToBeginning
