@@ -58,10 +58,10 @@ Conversion	Ctrl i	PredictAndConvert
 Conversion	Enter	Commit
 Conversion	Ctrl m	Commit
 Conversion	Ctrl Enter	CommitOnlyFirstSegment
-Conversion	s	SegmentWidthShrink
-Conversion	e	SegmentWidthExpand
-Conversion	b	SegmentFocusLeft
-Conversion	w	SegmentFocusRight
+Conversion	Ctrl s	SegmentWidthShrink
+Conversion	Ctrl e	SegmentWidthExpand
+Conversion	Ctrl b	SegmentFocusLeft
+Conversion	Ctrl f	SegmentFocusRight
 Conversion	F6	ConvertToHiragana
 Conversion	F7	ConvertToFullKatakana
 Conversion	F8	ConvertToHalfWidth
