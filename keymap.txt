@@ -45,7 +45,6 @@ Conversion	Ctrl g	CancelAndIMEOff
 Conversion	Escape	Cancel
 Conversion	ESC	Cancel
 Conversion	Backspace	Cancel
-Conversion	Ctrl h	Cancel
 Conversion	Space	ConvertNext
 Conversion	Shift Space	ConvertPrev
 Conversion	Ctrl n	ConvertNext
@@ -55,8 +54,8 @@ Conversion	Ctrl i	PredictAndConvert
 Conversion	Enter	Commit
 Conversion	Ctrl m	Commit
 Conversion	Ctrl Enter	CommitOnlyFirstSegment
-Conversion	Ctrl s	SegmentWidthShrink
-Conversion	Ctrl e	SegmentWidthExpand
+Conversion	Ctrl h	SegmentWidthShrink
+Conversion	Ctrl l	SegmentWidthExpand
 Conversion	Ctrl b	SegmentFocusLeft
 Conversion	Ctrl f	SegmentFocusRight
 Conversion	Shift Left	SegmentWidthShrink
