@@ -5,6 +5,8 @@ DirectInput	Henkan	IMEOn
 
 Precomposition	Hankaku/Zenkaku	CancelAndIMEOff
 Precomposition	Ctrl g	CancelAndIMEOff
+Composition	Escape	CancelAndIMEOff
+Composition	ESC	CancelAndIMEOff
 Precomposition	Shift Henkan	ToggleAlphanumericMode
 Precomposition	Space	InsertSpace
 Precomposition	Shift Space	InsertAlternateSpace
@@ -13,8 +15,8 @@ Precomposition	Ctrl F8	LaunchWordRegisterDialog
 
 Composition	Hankaku/Zenkaku	CancelAndIMEOff
 Composition	Ctrl g	CancelAndIMEOff
-Composition	Escape	Cancel
-Composition	ESC	Cancel
+Composition	Escape	CancelAndIMEOff
+Composition	ESC	CancelAndIMEOff
 Composition	Space	Convert
 Composition	Tab	PredictAndConvert
 Composition	Ctrl i	PredictAndConvert
@@ -36,14 +38,14 @@ Composition	F10	ConvertToHalfAlphanumeric
 
 Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
 Suggestion	Ctrl g	CancelAndIMEOff
-Suggestion	Escape	Cancel
-Suggestion	ESC	Cancel
+Suggestion	Escape	CancelAndIMEOff
+Suggestion	ESC	CancelAndIMEOff
 Suggestion	Ctrl Enter	CommitFirstSuggestion
 
 Conversion	Hankaku/Zenkaku	CancelAndIMEOff
 Conversion	Ctrl g	CancelAndIMEOff
-Conversion	Escape	Cancel
-Conversion	ESC	Cancel
+Conversion	Escape	CancelAndIMEOff
+Conversion	ESC	CancelAndIMEOff
 Conversion	Backspace	Cancel
 Conversion	Space	ConvertNext
 Conversion	Shift Space	ConvertPrev
@@ -70,6 +72,8 @@ Conversion	F10	ConvertToHalfAlphanumeric
 
 Prediction	Hankaku/Zenkaku	CancelAndIMEOff
 Prediction	Ctrl g	CancelAndIMEOff
+Prediction	Escape	CancelAndIMEOff
+Prediction	ESC	CancelAndIMEOff
 Prediction	Ctrl Delete	DeleteSelectedCandidate
 Prediction	Ctrl Enter	CommitFirstSuggestion
 Prediction	Ctrl n	ConvertNext
