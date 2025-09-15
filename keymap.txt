@@ -62,6 +62,10 @@ Conversion	Ctrl s	SegmentWidthShrink
 Conversion	Ctrl e	SegmentWidthExpand
 Conversion	Ctrl b	SegmentFocusLeft
 Conversion	Ctrl f	SegmentFocusRight
+Conversion	Shift Left	SegmentWidthShrink
+Conversion	Shift Right	SegmentWidthExpand
+Conversion	Left	SegmentFocusLeft
+Conversion	Right	SegmentFocusRight
 Conversion	F6	ConvertToHiragana
 Conversion	F7	ConvertToFullKatakana
 Conversion	F8	ConvertToHalfWidth
