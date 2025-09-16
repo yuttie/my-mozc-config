@@ -3,7 +3,6 @@ status	key	command
 DirectInput	Hankaku/Zenkaku	IMEOn
 DirectInput	Henkan	IMEOn
 
-Precomposition	Hankaku/Zenkaku	CancelAndIMEOff
 Precomposition	Ctrl g	CancelAndIMEOff
 Composition	Escape	CancelAndIMEOff
 Composition	ESC	CancelAndIMEOff
@@ -13,7 +12,6 @@ Precomposition	Shift Space	InsertAlternateSpace
 Precomposition	Ctrl F7	LaunchConfigDialog
 Precomposition	Ctrl F8	LaunchWordRegisterDialog
 
-Composition	Hankaku/Zenkaku	CancelAndIMEOff
 Composition	Ctrl g	CancelAndIMEOff
 Composition	Escape	CancelAndIMEOff
 Composition	ESC	CancelAndIMEOff
@@ -36,13 +34,11 @@ Composition	F8	ConvertToHalfWidth
 Composition	F9	ConvertToFullAlphanumeric
 Composition	F10	ConvertToHalfAlphanumeric
 
-Suggestion	Hankaku/Zenkaku	CancelAndIMEOff
 Suggestion	Ctrl g	CancelAndIMEOff
 Suggestion	Escape	CancelAndIMEOff
 Suggestion	ESC	CancelAndIMEOff
 Suggestion	Ctrl Enter	CommitFirstSuggestion
 
-Conversion	Hankaku/Zenkaku	CancelAndIMEOff
 Conversion	Ctrl g	CancelAndIMEOff
 Conversion	Escape	CancelAndIMEOff
 Conversion	ESC	CancelAndIMEOff
@@ -70,7 +66,6 @@ Conversion	F8	ConvertToHalfWidth
 Conversion	F9	ConvertToFullAlphanumeric
 Conversion	F10	ConvertToHalfAlphanumeric
 
-Prediction	Hankaku/Zenkaku	CancelAndIMEOff
 Prediction	Ctrl g	CancelAndIMEOff
 Prediction	Escape	CancelAndIMEOff
 Prediction	ESC	CancelAndIMEOff
