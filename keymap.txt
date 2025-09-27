@@ -4,8 +4,8 @@ DirectInput	Hankaku/Zenkaku	IMEOn
 DirectInput	Henkan	IMEOn
 
 Precomposition	Ctrl g	CancelAndIMEOff
-Composition	Escape	CancelAndIMEOff
-Composition	ESC	CancelAndIMEOff
+Precomposition	Escape	CancelAndIMEOff
+Precomposition	ESC	CancelAndIMEOff
 Precomposition	Shift Henkan	ToggleAlphanumericMode
 Precomposition	Space	InsertSpace
 Precomposition	Shift Space	InsertAlternateSpace
