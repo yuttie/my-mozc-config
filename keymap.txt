@@ -3,18 +3,20 @@ status	key	command
 DirectInput	Hankaku/Zenkaku	IMEOn
 DirectInput	Henkan	IMEOn
 
-Precomposition	Ctrl g	CancelAndIMEOff
-Precomposition	Escape	CancelAndIMEOff
-Precomposition	ESC	CancelAndIMEOff
+Precomposition	;	CancelAndIMEOff
+Precomposition	Ctrl g	Cancel
+Precomposition	Escape	Cancel
+Precomposition	ESC	Cancel
 Precomposition	Shift Henkan	ToggleAlphanumericMode
 Precomposition	Space	InsertSpace
 Precomposition	Shift Space	InsertAlternateSpace
 Precomposition	Ctrl F7	LaunchConfigDialog
 Precomposition	Ctrl F8	LaunchWordRegisterDialog
 
-Composition	Ctrl g	CancelAndIMEOff
-Composition	Escape	CancelAndIMEOff
-Composition	ESC	CancelAndIMEOff
+Composition	;	CancelAndIMEOff
+Composition	Ctrl g	Cancel
+Composition	Escape	Cancel
+Composition	ESC	Cancel
 Composition	Space	Convert
 Composition	Tab	PredictAndConvert
 Composition	Ctrl i	PredictAndConvert
@@ -34,14 +36,16 @@ Composition	F8	ConvertToHalfWidth
 Composition	F9	ConvertToFullAlphanumeric
 Composition	F10	ConvertToHalfAlphanumeric
 
-Suggestion	Ctrl g	CancelAndIMEOff
-Suggestion	Escape	CancelAndIMEOff
-Suggestion	ESC	CancelAndIMEOff
+Suggestion	;	CancelAndIMEOff
+Suggestion	Ctrl g	Cancel
+Suggestion	Escape	Cancel
+Suggestion	ESC	Cancel
 Suggestion	Ctrl Enter	CommitFirstSuggestion
 
-Conversion	Ctrl g	CancelAndIMEOff
-Conversion	Escape	CancelAndIMEOff
-Conversion	ESC	CancelAndIMEOff
+Conversion	;	CancelAndIMEOff
+Conversion	Ctrl g	Cancel
+Conversion	Escape	Cancel
+Conversion	ESC	Cancel
 Conversion	Backspace	Cancel
 Conversion	Space	ConvertNext
 Conversion	Shift Space	ConvertPrev
@@ -66,9 +70,10 @@ Conversion	F8	ConvertToHalfWidth
 Conversion	F9	ConvertToFullAlphanumeric
 Conversion	F10	ConvertToHalfAlphanumeric
 
-Prediction	Ctrl g	CancelAndIMEOff
-Prediction	Escape	CancelAndIMEOff
-Prediction	ESC	CancelAndIMEOff
+Prediction	;	CancelAndIMEOff
+Prediction	Ctrl g	Cancel
+Prediction	Escape	Cancel
+Prediction	ESC	Cancel
 Prediction	Ctrl Delete	DeleteSelectedCandidate
 Prediction	Ctrl Enter	CommitFirstSuggestion
 Prediction	Ctrl n	ConvertNext
